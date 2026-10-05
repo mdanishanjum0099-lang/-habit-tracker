@@ -4,11 +4,11 @@ def habit_report(habits):
 
 
 habits = [
-    ("Drink water", True),
+    ("Drink water", False),
     ("Read 10 pages", False),
     ("Exercise", True),
     ("Sleep 8 hours", True),
-    ("Meditate", False)
+    ("Meditate", True)
 ]
 
 for name, status in habits:
